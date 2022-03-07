@@ -1,0 +1,52 @@
+Git & GitHub
+
+Token Pessoal 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
+
+Winows
+Contrl+L Limpar a tela
+cd -
+dir - listas pastas
+mkdir -Criar diretorio 
+rmdir (del) - excluir 
+cls -limpar a tela
+TAB - auto compreta o nome da pasta
+echo - imprime na tela ou
+echo hello > hello.txt cria o arquivo
+rmdir /s /q - remover diretorio/repositorio
+ls >mostrar o que ha no diretorio
+pwd > mostra o caminho/diretorio
+ls -a > lista arquivos ocultos
+
+Criando um arquivo dentro de uma pasta - Markdown
+# Titulo nivel 1
+## Titulo nivel 2
+### Titulo nivel 3
+
+
+1-Iniciar - Criar um repositorio> GIT git init
+2-Iniciar Versionamento git add
+3-Criar Commit git commit
+comandos no GitHub Sequencia de Criptografia
+ssh-keygen -t ed25519 -C fabiolpgomes@hotmail.com /para gerar a chave ssh
+eval $(ssh-agent -s) /para acionar a chave ssh gerada
+git clone git@github.com:fabiolpgomes/Hello-world.git /clonar o ssh repositorio
+
+Git Satus= em que status esta o arquivo
+mv move o arquivo ./ outro repositorio
+
+git commit -m "mensagem xxxxxx"
+
+git init >cria a pasta e cria/inicializa o repositorio
+
+git remote add origin https://....direciona o repositorio local com o repositorio Servidor
+git remote -v >conseguimos visualizar http:/
+$ git push origin master >comando empurrar o arquivo pdo servidor local para o servidor github
+
+Conflito "Merge" na mesma linha....
+
+git add *
+git commit -m "xxxcx"
+git push origin master 
+
+Desafio de Projeto
+1-Criar Repositorio GitHub
